@@ -3,8 +3,9 @@
 
 # Quest4 | Iron_regression
 ---
-# Project Overview:
-In this project, we aim to analyze and predict house sale prices in King County using a dataset that includes various attributes of the houses sold in this region. By performing Exploratory Data Analysis (EDA) and data processing, we will gain insights into the dataset and prepare it for machine learning. Our ultimate goal is to determine which machine learning model best predicts house prices based on the available features.
+# Project Overview
+In this project, we aim to analyze and predict house sale prices in King County using a dataset that includes various attributes of the houses sold in this region. By performing Exploratory Data Analysis (EDA) and data processing, we will gain insights into the dataset and prepare it for machine learning. Our ultimate goal is to determine which machine learning model best predicts house prices based on the available features.  
+
 ---
 # Data Source:
 The dataset used in this project contains house sale prices and various attributes related to the houses sold in **King County**. Key features in the dataset include:  
@@ -32,20 +33,15 @@ The dataset used in this project contains house sale prices and various attribut
 ---
 # Conslusion:  
 By analyzing different supervised models including:   
-Linear Regression,   
-Ridge,   
-Lasso,   
-Decision Tree,   
-K-Nearest Neighbors (KNN), and   
-XGBoost,   
+- Linear Regression,   
+- Ridge,   
+- Lasso,   
+- Decision Tree,   
+- K-Nearest Neighbors (KNN), and   
+- XGBoost,  
+  
 The results showed that the XGBoost model is the most accurate for predicting house prices. The XGBoost model achieved an R² score of 0.67775,RMSE of 215,690.53 and MEA 130,857.90 indicating its superior performance compared to the other models evaluated.  
 
 To enhance the model's performance, we applied standardization, which significantly improved the accuracy of our predictions. Additionally, we excluded outliers towards the end of our analysis to compare the improvement in the model's performance. This step helped in refining the predictions by reducing the impact of extreme values on the model.  
 
 Overall, the combination of standardization and outlier exclusion, along with the robust XGBoost algorithm, resulted in a highly effective predictive model for house sale prices in King County.
-
-
-
-
-
-
