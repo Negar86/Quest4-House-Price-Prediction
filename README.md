@@ -45,3 +45,5 @@ The results showed that the XGBoost model is the most accurate for predicting ho
 To enhance the model's performance, we applied standardization, which significantly improved the accuracy of our predictions. Additionally, we excluded outliers towards the end of our analysis to compare the improvement in the model's performance. This step helped in refining the predictions by reducing the impact of extreme values on the model.  
 
 Overall, the combination of standardization and outlier exclusion, along with the robust XGBoost algorithm, resulted in a highly effective predictive model for house sale prices in King County.
+![comparison](https://github.com/Negar86/Quest4-Iron_regression/assets/160590005/6536659e-4225-4519-a684-27c1b35ace8b)
+
