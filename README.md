@@ -8,8 +8,8 @@ In this project, we aim to analyze and predict house sale prices in King County 
 
 # Data Source:
 The dataset used in this project contains house sale prices and various attributes related to the houses sold in **King County**. Key features in the dataset include:  
-**id:** A unique identifier for a house.  
-**date:** The date on which the house was sold.  
+- **id:** A unique identifier for a house.  
+- **date:** The date on which the house was sold.  
 **price:** The sale price of the house (prediction target).  
 **bedrooms:** Number of bedrooms in the house.  
 **bathrooms:** Number of bathrooms in the house, per bedroom.  
